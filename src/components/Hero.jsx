@@ -9,7 +9,7 @@ const Hero = () => {
         <motion.img
           src="/src/assets/image1.png"
           alt="Gym Workout"
-          className="w-[81vh] h-[90vh] sm:w-[74vh] sm:h-[114vh] rounded-lg shadow-2xl z-10"
+          className="w-[81vh] h-[54vh] sm:w-[125vh] sm:h-[90vh] rounded-lg shadow-2xl z-10"
           initial={{ scale: 0.8, rotateY: 20, opacity: 0 }}
           animate={{ scale: 1, rotateY: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -20,11 +20,9 @@ const Hero = () => {
           }}
         />
         <div>
-          <h1 className="text-5xl font-bold text-white">Box Office News!</h1>
+          <h1 className="text-5xl font-bold text-white">Why Choose us?</h1>
           <p className="py-6 text-white">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          Choose NFC Gym for top-tier equipment, expert trainers, and a motivating environment. We offer personalized workout plans, diverse classes, and a supportive community to help you achieve your fitness goals. Train smarter, push harder, and see real results with us!
           </p>
           <button className="btn btn-primary">Get Started</button>
         </div>
